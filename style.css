@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+.square{
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.player, .winner{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.score{
+    border: solid;
+    width: 200px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: #eee;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover{
+    background: #302f2f86;
+}
